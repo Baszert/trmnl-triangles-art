@@ -1,10 +1,10 @@
 {% assign kumiko = "kumiko-" | append_random %}
 {% assign deviceWidth = trmnl.device.width | default: 800 | plus: 0 %}
 {% assign deviceHeight = trmnl.device.height | default: 480 | plus: 0 %}
-{% assign columns = trmnl.plugin_settings.custom_fields_values.columns | 8 | plus: 0 %}
-{% assign emptyness = trmnl.plugin_settings.custom_fields_values.emptyness | 5 | plus: 0 %}
-{% assign borderWidth = trmnl.plugin_settings.custom_fields_values.border_width | 8 | plus: 0 %}
-{% assign strokeWidth = trmnl.plugin_settings.custom_fields_values.stroke_width | 8 | plus: 0 %}
+{% assign columns = trmnl.plugin_settings.custom_fields_values.columns | default: 8 | plus: 0 %}
+{% assign emptyness = trmnl.plugin_settings.custom_fields_values.emptyness | default: 5 | plus: 0 %}
+{% assign borderWidth = trmnl.plugin_settings.custom_fields_values.border_width | default: 10 | plus: 0 %}
+{% assign strokeWidth = trmnl.plugin_settings.custom_fields_values.stroke_width | default: 10 | plus: 0 %}
 
 <div class="layout">
   <div id="{{ kumiko }}"></div>

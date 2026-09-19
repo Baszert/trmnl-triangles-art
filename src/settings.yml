@@ -68,6 +68,7 @@ custom_fields:
   description: How much whitespace would you like in your artwork? 0 means as little as possible, 10 as much as possible.
   help_text: Select a number between 0 and 10. Standard is 5.
   default: '5'
+  min: 0
   max: 10
 name: Triangles
 description: Generated Art
