@@ -37,7 +37,7 @@ custom_fields:
   description: Let your TRMNL show a random generated artwork with triangles. Based on the Kumiko styled artwork from Japan, but more random. With every refresh the generated artwork gets a new look.
   category: art
   email_address: trmnl@achtnegen.nl
-  github_url: https://github.com/Bastronautik/trmnl-triangles-art
+  github_url: https://github.com/Baszert/trmnl-triangles-art
 - keyname: columns
   field_type: number
   name: Columns
